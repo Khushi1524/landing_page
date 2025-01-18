@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+.landing-pg-container {
+    background: #fd9596;
+}
+
+.landing-pg-container .inner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.landing-pg-container .inner-container .top-nav nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.landing-pg-container .inner-container .top-nav nav .menu {
+    font-size: 16px;
+}
+
+.landing-pg-container .inner-container .top-nav nav .center-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+
+.landing-pg-container .inner-container .top-nav nav .center-menu ul #brand-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.landing-pg-container .inner-container .top-nav nav .shop {
+    font-size: 16px;
+}
+
+.landing-pg-container .inner-container .first-half {
+    display: flex;
+    justify-content: center;
+}
+
+/* .landing-pg-container .inner-container .first-half .kitty-img {
+    width: 500px;
+}
+
+.landing-pg-container .inner-container .first-half .kitty-img img {
+    width: 100%;
+} */
+
+.landing-pg-container .second-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.landing-pg-container .second-half .text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+    color: #1c3740;
+}
+
+.landing-pg-container .second-half .text #cat {
+    font-size: 20px;
+}
+
+.landing-pg-container .second-half .text h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.landing-pg-container .second-half .text p {
+    font-size: 18px;
+}
+
+.landing-pg-container .second-half .text #bottom-text {
+    margin-top: 15px;
+}
