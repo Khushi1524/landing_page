@@ -31,6 +31,7 @@ html::-webkit-scrollbar{
 
 .landing-pg-container .inner-container .top-nav nav .menu {
     font-size: 16px;
+    cursor: pointer;
 }
 
 .landing-pg-container .inner-container .top-nav nav .center-menu ul {
@@ -38,15 +39,28 @@ html::-webkit-scrollbar{
     display: flex;
     gap: 50px;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.landing-pg-container .inner-container .top-nav nav .center-menu ul .menuClose{
+    display: none;
 }
 
 .landing-pg-container .inner-container .top-nav nav .center-menu ul #brand-name {
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .landing-pg-container .inner-container .top-nav nav .shop {
     font-size: 18px;
+    cursor: pointer;
+}
+
+.landing-pg-container .inner-container .top-nav nav .phone-menu{
+    background: white;
+    width: 100%;
+    height: 100%;
 }
 
 .landing-pg-container .inner-container .first-half {
@@ -104,13 +118,37 @@ html::-webkit-scrollbar{
 
 
 @media (max-width: 768px) {
-    .landing-pg-container .inner-container .top-nav nav .center-menu{
+
+    .landing-pg-container .inner-container .top-nav nav .center-menu ul{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #fff;
+        width: 80%;
+        overflow: hidden;
+        z-index: 10;
+        cursor: pointer;
+        box-shadow: 4px 6px 10px #808081d3;
         display: none;
+    }
+
+    .landing-pg-container .inner-container .top-nav nav .center-menu ul #menuClose{
+        display: block;
+        color: red;
+        font-weight: bold;
+    }
+
+    .landing-pg-container .inner-container .top-nav nav li{
+        padding: 20px;
+        font-size: 18x;
     }
 }
 
 @media (max-width: 480px) {
-    .landing-pg-container .inner-container .top-nav nav .center-menu{
+    /* .landing-pg-container .inner-container .top-nav nav .center-menu{
         display: none;
-    }
+    } */
 }

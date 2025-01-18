@@ -15,15 +15,16 @@
             <div class="top-nav">
                 <nav>
                     <div class="menu">
-                        <i class="fa-solid fa-bars"></i>
+                        <i onclick="toggleMenu()" class="fa-solid fa-bars"></i>
                     </div>
                     <div class="center-menu">
-                        <ul>
+                        <ul id="menuList">
                             <li>Shirts</li>
                             <li>Bags</li>
                             <li id="brand-name">JXOS</li>
                             <li>Gifts</li>
                             <li>Toys</li>
+                            <li onclick="menuClosebtn()" id="menuClose">Close</li>
                         </ul>
                     </div>
 
@@ -50,6 +51,8 @@
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
