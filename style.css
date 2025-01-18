@@ -101,3 +101,10 @@ html::-webkit-scrollbar{
 .landing-pg-container .second-half .text #bottom-text {
     margin-top: 15px;
 }
+
+
+@media (max-width: 768px) {
+    .landing-pg-container .inner-container .top-nav nav .center-menu{
+        display: none;
+    }
+}
