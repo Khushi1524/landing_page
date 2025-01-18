@@ -68,14 +68,6 @@ html::-webkit-scrollbar{
     justify-content: center;
 }
 
-/* .landing-pg-container .inner-container .first-half .kitty-img {
-    width: 500px;
-}
-
-.landing-pg-container .inner-container .first-half .kitty-img img {
-    width: 100%;
-} */
-
 .landing-pg-container .second-half {
     display: flex;
     flex-direction: column;
