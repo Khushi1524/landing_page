@@ -108,3 +108,9 @@ html::-webkit-scrollbar{
         display: none;
     }
 }
+
+@media (max-width: 480px) {
+    .landing-pg-container .inner-container .top-nav nav .center-menu{
+        display: none;
+    }
+}
