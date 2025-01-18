@@ -131,7 +131,7 @@ html::-webkit-scrollbar{
         overflow: hidden;
         z-index: 10;
         cursor: pointer;
-        box-shadow: 4px 6px 10px #808081d3;
+        box-shadow: 4px 6px 14px 4px #808081d3;
         display: none;
     }
 
@@ -143,12 +143,6 @@ html::-webkit-scrollbar{
 
     .landing-pg-container .inner-container .top-nav nav li{
         padding: 20px;
-        font-size: 18x;
+        font-size: 20x;
     }
-}
-
-@media (max-width: 480px) {
-    /* .landing-pg-container .inner-container .top-nav nav .center-menu{
-        display: none;
-    } */
 }
