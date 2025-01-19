@@ -127,6 +127,10 @@ html::-webkit-scrollbar{
         display: none;
     }
 
+    .landing-pg-container .inner-container .top-nav nav .center-menu ul #brand-name{
+        display: none;
+    }
+
     .landing-pg-container .inner-container .top-nav nav .center-menu ul #menuClose{
         display: block;
         color: red;
